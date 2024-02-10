@@ -1,0 +1,19 @@
+{
+  "name": "cypress-xhr-testing",
+  "version": "1.0.0",
+  "description": "Cypress Project for XHR Testing",
+  "main": "index.js",
+  "scripts": {
+    "triggerAllTests": "npx cypress open",
+    "triggerAllTests-headless": "npx cypress run"
+  },
+  "keywords": [
+    "XHR Testing",
+    "Cypress"
+  ],
+  "author": "Mario Nizic",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
